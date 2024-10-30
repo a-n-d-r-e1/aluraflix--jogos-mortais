@@ -1,0 +1,32 @@
+body {
+
+    color: rgb(200, 0, 0);
+    background: rgb(65, 12, 12);
+    -webkit-text-stroke-color: gray;
+    font-family: 'broadway', sans-serif
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 0, 40);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+
+
+}
+/* código escondido */
+
+.categoria-videos img {
+    opacity 100;
+}
+
+/* código escondido */
+
+.categoria-videos img {
+    opacity 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity 1.0;
+}
